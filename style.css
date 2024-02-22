@@ -1,0 +1,80 @@
+:root{
+--Orange: hsl(25, 97%, 53%);
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+}
+*{
+    font-family: 'Overpass', sans-serif;
+}
+
+.font-title{
+    font-weight: 700;
+}
+.font-text{
+    font-weight: 400;
+}
+.bg-hero{
+    background-color: var(--VeryDarkBlue);
+}
+.bg-gray{
+    background-color: var(--DarkBlue);
+}
+.text-gray{
+    color:var(--MediumGrey);
+}
+.font-15{
+    font-size: 15px;
+}
+.circle{
+    background-color: hsl(215, 9%, 27%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: var(--LightGrey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.circle:hover{
+   background-color: var(--Orange);
+   color: var(--White);
+}
+.border-20{
+    border-radius: 20px;
+}
+.button_Style{
+    padding:10px 0px;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    color: var(--White);
+    background-color: var(--Orange);
+    text-align: center;
+}
+.button_Style:hover{
+    color: var(--Orange);
+    background-color: var(--White);
+}
+
+
+/* thank you */
+#input_box{
+    background-color:hsl(215, 9%, 27%) ;
+    padding: 2px 0px;
+    border: none;
+    border-radius: 20px;
+    color: var(--Orange);
+}
+
+.hidden {
+    display: none;
+  }
+
+  .selected{
+    background-color: var(--LightGrey);
+    color: var(--White);
+  }
